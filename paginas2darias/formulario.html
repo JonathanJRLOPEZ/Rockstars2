@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/diseños2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/formulario.css">
+    <link rel="stylesheet" href="../CSS/pie de pagina.css">
+</head>
+<style>
+
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+
+    header{
+       background-image: url(../img/nature-dog-wildlife-Zoo-Doberman-Pinscher-angry-519645-wallhere.com.jpg);
+      background-size: contain;
+      }
+    #logo{
+      margin: auto;
+      height: 250px;
+      width: 320px;
+      text-align: center;
+    }
+
+    #logo h1{
+       font-family: 'Pacifico', cursive;
+       font-size: 58px;
+     }
+
+   nav{
+     height: 80px;
+     background-color:#17181C;
+     text-align: center;
+   }
+
+   nav ul{
+      list-style: none;
+      display: inline-block;
+      padding:18px;
+   }
+
+   nav ul li{
+       float: left;
+       margin-top: 20px;
+   }
+
+   nav ul li a {
+       color: white;
+       font-weight: bold;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 18px;
+   }
+
+   nav ul li a:hover{
+     background-color: #929fb3;
+   }
+
+ </style>
+<body>
+  <video  autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="miVideo">
+    <source src="../img/video1fondo.mp4" type="video/mp4"></source>
+</video>
+    <header>
+        <div id="logo">
+           <h1>Rockstar Games</h1>
+        </div>
+        <nav>
+          <ul>
+           <li><a href="../rockstar2.html">Principal</a></li>
+            <li><a href="Rockstar games descripcion.html">Que es Rockstar</a></li>
+            <li><a href="RockstarGames.html">SEDE</a></li>
+            <li><a href="ROCKSTAR GAMESVERCIONES.html">Juegos principales</a></li>
+            <li><a href="formulario.html">Registrarse</a></li>
+          </ul>
+        </nav>
+      </header>
+    <form>
+  <div class="input-group">
+    <label for="fname">Nombre</label>
+    <input
+      id="fname"
+      name="fname"
+      placeholder="Ingresa tu nombre"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="lname">Apellidos</label>
+    <input
+      id="lname"
+      name="lname"
+      placeholder="Ingresa tus apellidos"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="email">Email</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      placeholder="Ingresa tu email"
+    />
+  </div>
+  <div class="input-group">
+    <label>País</label>
+    <select name="country" id="country" required="required">
+      <option value="" selected="selected">Selecciona un país</option>
+      <option value="Afghanistan">Afganistán</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Argelia</option>
+      <option value="American Samoa">Samoa Americana</option>
+      <option value="Andorra">Andorra</option>
+      <option value="Angola">Angola</option>
+      <option value="Anguilla">Anguilla</option>
+      <option value="Antarctica">Antártida</option>
+    </select>
+  </div>
+  <div class="input-group">
+    <label for="message">Mensaje</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Opcional"
+    ></textarea>
+  </div>
+  <div class="submit-group">
+    <button type="submit">Enviar formulario</button>
+  </div>
+  <h1>O descargar sin online</h1>
+ <center><button><a href="proyects2.html">Descargar</a></button></center>
+</form>
+<footer>
+  <center><h1>Contactenos por los siguientes medios</h1><p>num:</p><p>correo electronico:</p></center>
+</footer>
+</body>
+</html>
